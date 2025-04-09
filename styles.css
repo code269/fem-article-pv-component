@@ -3,6 +3,7 @@
   --desat-dark-blue: hsl(214, 17%, 51%);
   --grey-blue: hsl(212, 23%, 60%);
   --light-grey-blue: hsl(210, 46%, 95%);
+  --white: hsl(0, 0%, 100%);
 
   --fw-500: 500;
   --fw-700: 700;
@@ -32,15 +33,76 @@ ol {
   list-style: none;
   padding: 0;
 }
+
+img {
+  display: block;
+  max-width: 100%; /* ? Is this the right value? */
+}
 /* CSS reset end */
 
 body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+
   font-family: 'Maonrope', sans-serif;
   font-size: 13px;
+  background-color: var(--light-grey-blue);
 }
 
-h1 {
+.article-card {
+  margin: 2em;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.article-card__content {
+  padding: 3em;
+  padding-bottom: 0;
+}
+
+.article-card__content > h1 {
+  font-size: 1.125rem;
   font-weight: var(--fw-700);
+  color: var(--dark-grey-blue);
+  line-height: 1.5;
+}
+
+.article-card__content > p {
+  margin: 1em 0;
+  font-size: 0.9rem;
+  color: var(--desat-dark-blue);
+  line-height: 1.7;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.25em;
+
+  padding: 2em 0;
+}
+
+.profile__icon {
+  max-width: 3em;
+  border-radius: 50%;
+}
+
+.profile__container {
+  line-height: 1.5;
+}
+
+.profile__name {
+  font-weight: var(--fw-700);
+  color: var(--dark-grey-blue);
+}
+
+.profile__date {
+  color: var(--desat-dark-blue);
+}
+
+.profile__share-button {
+  margin-left: auto;
 }
 
 .attribution {
