@@ -1,7 +1,53 @@
+:root {
+  --dark-grey-blue: hsl(217, 19%, 35%);
+  --desat-dark-blue: hsl(214, 17%, 51%);
+  --grey-blue: hsl(212, 23%, 60%);
+  --light-grey-blue: hsl(210, 46%, 95%);
+
+  --fw-500: 500;
+  --fw-700: 700;
+}
+
+/* CSS reset start */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+/* CSS reset end */
+
+body {
+  font-family: 'Maonrope', sans-serif;
+  font-size: 13px;
+}
+
+h1 {
+  font-weight: var(--fw-700);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
