@@ -1,0 +1,14 @@
+Mobile:
+- Render onClick to show share component
+- Touch up on text
+
+Tablet:
+- Add max-width to restrict card size (?)
+
+Desktop:
+- Flexbox
+- Adjust styling if needed
+- Adjust share component to design
+
+Notes:
+- Profile share button, not sure how to properly style this in regards to sizing and coloring.

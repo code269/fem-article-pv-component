@@ -36,7 +36,7 @@ ol {
 
 img {
   display: block;
-  max-width: 100%; /* ? Is this the right value? */
+  max-width: 100%;
 }
 /* CSS reset end */
 
@@ -54,6 +54,10 @@ body {
   margin: 2em;
   border-radius: 10px;
   background-color: var(--white);
+}
+
+.article-card__img {
+  border-radius: 10px 10px 0 0;
 }
 
 .article-card__content {
@@ -89,7 +93,7 @@ body {
 }
 
 .profile__container {
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .profile__name {
@@ -103,6 +107,15 @@ body {
 
 .profile__share-button {
   margin-left: auto;
+  padding: 1em;
+  width: 3.5em;
+  border-radius: 50%;
+  background-color: var(--light-grey-blue);
+}
+
+.profile__share-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .attribution {
