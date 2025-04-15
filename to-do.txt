@@ -1,9 +1,8 @@
 Mobile:
+- Build popup component
 - Render onClick to show share component
+- Turn into a literal HTML button
 - Touch up on text
-
-Tablet:
-- Add max-width to restrict card size (?)
 
 Desktop:
 - Flexbox
