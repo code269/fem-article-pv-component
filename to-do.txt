@@ -1,7 +1,6 @@
 Mobile:
-- Build popup component
+- Fix spacing on profile / popup
 - Render onClick to show share component
-- Turn into a literal HTML button
 - Touch up on text
 
 Desktop:
@@ -11,3 +10,4 @@ Desktop:
 
 Notes:
 - Profile share button, not sure how to properly style this in regards to sizing and coloring.
+- Im done bra imma just steal someones styling
