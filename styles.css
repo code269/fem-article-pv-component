@@ -36,7 +36,7 @@ ol {
 
 img {
   display: block;
-  max-width: 100%;
+  max-inline-size: 100%;
 }
 
 button {
@@ -48,7 +48,7 @@ button {
 body {
   display: grid;
   place-content: center;
-  min-height: 100vh;
+  min-block-size: 100vh;
 
   font-family: 'Maonrope', sans-serif;
   font-size: 13px;
@@ -57,21 +57,21 @@ body {
 
 .article-card {
   margin: 2em;
-  max-width: 400px;
+  max-inline-size: 400px;
   border-radius: 10px;
   background-color: var(--white);
 }
 
 .article-card__img {
   inline-size: 100%;
-  height: 250px;
+  block-size: 250px;
   border-radius: 10px 10px 0 0;
   object-fit: cover;
 }
 
 .article-card__content {
   padding: 3em;
-  padding-bottom: 0;
+  padding-block-end: 0;
 
   position: relative;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .article-card__content > p {
-  margin: 1em 0;
+  margin-block: 1em;
   font-size: 0.9rem;
   color: var(--desat-dark-blue);
   line-height: 1.6;
@@ -100,12 +100,12 @@ body {
 }
 
 .profile__icon {
-  max-width: 3.5em;
+  max-inline-size: 3.5em;
   border-radius: 50%;
 }
 
 .profile__name {
-  margin-bottom: 0.5em;
+  margin-block-end: 0.5em;
   font-weight: var(--fw-700);
   color: var(--dark-grey-blue);
 }
@@ -115,7 +115,7 @@ body {
 }
 
 button {
-  margin-left: auto;
+  margin-inline-start: auto;
   padding: 0.9em;
   border-radius: 50%;
   background-color: var(--light-grey-blue);
@@ -127,8 +127,8 @@ button:hover {
 }
 
 .profile__share-button {
-  height: 20px;
-  width: 20px;
+  block-size: 20px;
+  inline-size: 20px;
 }
 
 .popup {
@@ -138,7 +138,7 @@ button:hover {
 
   padding: 1.75em 3em;
   inline-size: 100%;
-  height: auto;
+  block-size: auto;
 
   background-color: var(--dark-grey-blue);
   border-radius: 0 0 10px 10px;
@@ -157,9 +157,9 @@ button:hover {
 }
 
 .popup__button img {
-  margin-left: 0.5em;
-  height: 25px;
-  width: 25px;
+  margin-inline-start: 0.5em;
+  block-size: 25px;
+  inline-size: 25px;
 }
 
 .popup__button img:hover {
@@ -193,13 +193,29 @@ button:hover {
 
   .article-card {
     display: flex;
-    max-width: 800px;
+    max-inline-size: 800px;
   }
 
   .article-card__img {
-    width: 40%;
-    height: 100%;
+    inline-size: 40%;
+    block-size: 100%;
     border-radius: 10px 0 0 10px;
     object-position: left 10%;
+  }
+
+  /* .article-card__content {
+    position: static;
+  } */
+
+  .popup {
+    justify-content: center;
+    max-inline-size: 25em;
+    border-radius: 10px;
+
+    transform: translate(250px, -100px);
+  }
+
+  #close-share {
+    display: none;
   }
 }

@@ -1,13 +1,15 @@
-Mobile:
-- Fix spacing on profile / popup
-- Render onClick to show share component
-- Touch up on text
-
 Desktop:
-- Flexbox
-- Adjust styling if needed
-- Adjust share component to design
+- Position popup
+- Make cone shape
+- Replace button instead of having 2 buttons
+
+Re-do:
+- Re-do popup, doesn't feel right
+- Having only 1 button (?)
 
 Notes:
-- Profile share button, not sure how to properly style this in regards to sizing and coloring.
-- Im done bra imma just steal someones styling
+
+Refractor:
+- HTML structuring
+- CSS naming
+- CSS properties (logical) naming [DONE]
