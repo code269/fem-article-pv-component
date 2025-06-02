@@ -84,7 +84,7 @@ body {
 }
 
 .article-card__content > p {
-  margin-block: 1em;
+  margin-block: 1.5em;
   font-size: 0.9rem;
   color: var(--desat-dark-blue);
   line-height: 1.6;
@@ -136,7 +136,7 @@ button:hover {
   align-items: center;
   gap: 1em;
 
-  padding: 1.75em 3em;
+  padding: 2.05em 3em;
   inline-size: 100%;
   block-size: auto;
 
@@ -147,6 +147,10 @@ button:hover {
   inset-inline: 0;
   bottom: 0;
   z-index: 100;
+}
+
+.visible {
+  display: flex;
 }
 
 .popup__span {

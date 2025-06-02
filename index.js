@@ -3,9 +3,9 @@ const closeShareBtn = document.getElementById('close-share');
 const popUp = document.querySelector('.popup');
 
 openShareBtn.addEventListener('click', () => {
-  popUp.style.display = 'flex';
+  popUp.classList.toggle('visible');
 });
 
 closeShareBtn.addEventListener('click', () => {
-  popUp.style.display = 'none';
+  popUp.classList.toggle('visible');
 });
