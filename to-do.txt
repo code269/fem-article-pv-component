@@ -1,13 +1,10 @@
 Desktop:
 - Position popup [Done]
-- Make cone shape
-
-Re-do:
-- Re-do popup, doesn't feel right
-    - Having only 1 button (?)
-Solution: Change to toggle visibility
+- Make cone shape [Done]
+- Add color invert on button click
 
 Notes:
+Finish up by tomorrow, speedrun
 
 Refractor:
 - HTML structuring

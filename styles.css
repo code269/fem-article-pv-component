@@ -207,16 +207,25 @@ button:hover {
     object-position: left 10%;
   }
 
-  /* .article-card__content {
-    position: static;
-  } */
-
   .popup {
     justify-content: center;
+    padding: 1.5em 2.5em;
     max-inline-size: 25em;
     border-radius: 10px;
+    transform: translate(255px, -100px);
+  }
 
-    transform: translate(250px, -100px);
+  .popup::after {
+    content: '';
+    position: absolute;
+
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* Triangle shape */
+    border-inline: 10px solid transparent;
+    border-block-start: 10px solid var(--dark-grey-blue);
   }
 
   #close-share {
