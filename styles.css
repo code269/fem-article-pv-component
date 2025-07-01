@@ -94,7 +94,6 @@ body {
   display: flex;
   align-items: center;
   gap: 1.25em;
-  /* ? Double check */
   padding: 1.25em 0 2em 0;
   inline-size: 100%;
 }
