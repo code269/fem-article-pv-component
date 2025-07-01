@@ -170,11 +170,11 @@ button:hover {
   opacity: 0.8;
 }
 
-.popup button {
+.button--dark {
   background-color: var(--desat-dark-blue);
 }
 
-.popup button .profile__share-button {
+.button__img--dark {
   filter: brightness(1000%);
 }
 
