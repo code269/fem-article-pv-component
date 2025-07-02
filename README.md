@@ -21,15 +21,28 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+# Mobile
+
+![](./images/screenshots/mobile-view.png)
+
+# Mobile (Active)
+
+![](./images/screenshots/mobile-view-active.png)
+
+# Desktop
+
+![](./images/screenshots/desktop-view.png)
+
+# Desktop (Active)
+
+![](./images/screenshots/desktop-view-active.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/article-preview-component-2i5BC5lzcB)
+- Live Site URL: [GitHub Pages](https://code269.github.io/fem-article-pv-component/)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [GitHub](https://github.com/code269)
+- Frontend Mentor - [@code269](https://www.frontendmentor.io/profile/code269)
