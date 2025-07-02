@@ -21,19 +21,18 @@ Users should be able to:
 
 ### Screenshot
 
-# Mobile
-
+Mobile
 ![](./images/screenshots/mobile-view.png)
 
-# Mobile (Active)
+Mobile (Active)
 
 ![](./images/screenshots/mobile-view-active.png)
 
-# Desktop
+Desktop
 
 ![](./images/screenshots/desktop-view.png)
 
-# Desktop (Active)
+Desktop (Active)
 
 ![](./images/screenshots/desktop-view-active.png)
 
