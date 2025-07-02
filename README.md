@@ -22,6 +22,7 @@ Users should be able to:
 ### Screenshot
 
 Mobile
+
 ![](./images/screenshots/mobile-view.png)
 
 Mobile (Active)
